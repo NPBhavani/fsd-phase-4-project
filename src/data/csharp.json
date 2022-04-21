@@ -11,31 +11,31 @@
     "questions": [
         {
             "id": 1010,
-            "name": "Which of the following assemblies can be stored in Global Assembly Cache?",
+            "name": "Which of the following converts a type to a 64-bit integer in C#?",
             "questionTypeId": 1,
             "options": [
                 {
                     "id": 1055,
                     "questionId": 1010,
-                    "name": "Private Assemblies",
+                    "name": "ToSbyte",
                     "isAnswer": false
                 },
                 {
                     "id": 1056,
                     "questionId": 1010,
-                    "name": "Friend Assemblies",
+                    "name": "ToSingle",
                     "isAnswer": false
                 },
                 {
                     "id": 1057,
                     "questionId": 1010,
-                    "name": "Public Assemblies",
+                    "name": "ToInt32",
                     "isAnswer": false
                 },
                 {
                     "id": 1058,
                     "questionId": 1010,
-                    "name": "Shared Assemblies",
+                    "name": "ToInt64",
                     "isAnswer": true
                 }
             ],
@@ -47,13 +47,13 @@
         },
         {
             "id": 1011,
-            "name": "Which of the following .NET components can be used to remove unused references from the managed heap?",
+            "name": "Which of the following preprocessor directive allows to create a compound conditional directive, along with #if in C#?",
             "questionTypeId": 1,
             "options": [
                 {
                     "id": 1055,
                     "questionId": 1010,
-                    "name": "Language Infrastructure",
+                    "name": "elif",
                     "isAnswer": false
                 },
                 {
@@ -65,19 +65,19 @@
                 {
                     "id": 1057,
                     "questionId": 1010,
-                    "name": "Garbage Collector",
-                    "isAnswer": true
-                },
-                {
-                    "id": 1058,
-                    "questionId": 1010,
-                    "name": "Class Loader",
+                    "name": "define",
                     "isAnswer": false
                 },
                 {
                     "id": 1058,
                     "questionId": 1010,
-                    "name": "CTS",
+                    "name": "else",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1058,
+                    "questionId": 1010,
+                    "name": " if",
                     "isAnswer": false
                 }
             ],
@@ -89,31 +89,31 @@
         },
         {
             "id": 1012,
-            "name": "Which of the following utilities can be used to compile managed assemblies into processor-specific native code?",
+            "name": "Which of the following can be used to define the member of a class externally?",
             "questionTypeId": 1,
             "options": [
                 {
                     "id": 1055,
                     "questionId": 1010,
-                    "name": "gacutil",
+                    "name": ":",
                     "isAnswer": false
                 },
                 {
                     "id": 1057,
                     "questionId": 1010,
-                    "name": "ngen",
+                    "name": " ::",
                     "isAnswer": true
                 },
                 {
                     "id": 1056,
                     "questionId": 1010,
-                    "name": "dumpbin",
+                    "name": "#",
                     "isAnswer": false
                 },
                 {
                     "id": 1058,
                     "questionId": 1010,
-                    "name": "ildasm",
+                    "name": "none of the mentioned",
                     "isAnswer": false
                 }
             ],
@@ -125,31 +125,31 @@
         },
         {
             "id": 1013,
-            "name": "Which of the following is NOT an Arithmetic operator in C#.NET?",
+            "name": "Which of the following gives the correct count of the constructors that a class can define?",
             "questionTypeId": 1,
             "options": [
                 {
                     "id": 1055,
                     "questionId": 1010,
-                    "name": "** (Double Star)",
+                    "name": "Any number",
                     "isAnswer": true
                 },
                 {
                     "id": 1057,
                     "questionId": 1010,
-                    "name": "+ (Plus)",
+                    "name": " 1",
                     "isAnswer": false
                 },
                 {
                     "id": 1056,
                     "questionId": 1010,
-                    "name": "/ (Divide)",
+                    "name": "2",
                     "isAnswer": false
                 },
                 {
                     "id": 1058,
                     "questionId": 1010,
-                    "name": "% (Modulo)",
+                    "name": "None of the above",
                     "isAnswer": false
                 }
             ],
@@ -161,31 +161,31 @@
         },
         {
             "id": 1014,
-            "name": "Which of the following statements is correct about an interface used in C#.NET?",
+            "name": "What is the correct name of a method which has the same name as that of class and used to destroy objects?",
             "questionTypeId": 1,
             "options": [
                 {
                     "id": 1055,
                     "questionId": 1010,
-                    "name": "If a class implements an interface partially, then it should be an abstract class.",
+                    "name": " Destructor",
                     "isAnswer": true
                 },
                 {
                     "id": 1057,
                     "questionId": 1010,
-                    "name": "A class cannot implement an interface partially.",
+                    "name": "Constructor.",
                     "isAnswer": false
                 },
                 {
                     "id": 1056,
                     "questionId": 1010,
-                    "name": "An interface can contain static methods.",
+                    "name": " Finalize()",
                     "isAnswer": false
                 },
                 {
                     "id": 1058,
                     "questionId": 1010,
-                    "name": "An interface can contain static data.",
+                    "name": "End",
                     "isAnswer": false
                 }
             ],
@@ -197,25 +197,25 @@
         },
         {
             "id": 1015,
-            "name": "What does the term <strong>immutable</strong> means in term of string objects?",
+            "name": "What is #include <stdio.h>?",
             "questionTypeId": 1,
             "options": [
                 {
                     "id": 1055,
                     "questionId": 1010,
-                    "name": "We can modify characters included in the string",
+                    "name": "Inclusion directive",
                     "isAnswer": false
                 },
                 {
                     "id": 1057,
                     "questionId": 1010,
-                    "name": "We cannot modify characters contained in the string",
+                    "name": " Preprocessor directive",
                     "isAnswer": true
                 },
                 {
                     "id": 1056,
                     "questionId": 1010,
-                    "name": "We cannot perform various operation of comparison, inserting, appending etc",
+                    "name": " File inclusion directive",
                     "isAnswer": false
                 },
                 {
@@ -233,31 +233,31 @@
         },
         {
             "id": 1016,
-            "name": "Which of the following is NOT a .NET Exception class?",
+            "name": "The C-preprocessors are specified with _________ symbol.",
             "questionTypeId": 1,
             "options": [
                 {
                     "id": 1055,
                     "questionId": 1010,
-                    "name": "Exception",
+                    "name": " $",
                     "isAnswer": false
                 },
                 {
                     "id": 1056,
                     "questionId": 1010,
-                    "name": "StackMemoryException",
+                    "name": " #",
                     "isAnswer": true
                 },
                 {
                     "id": 1057,
                     "questionId": 1010,
-                    "name": "DivideByZeroException",
+                    "name": "” ”",
                     "isAnswer": false
                 },
                 {
                     "id": 1058,
                     "questionId": 1010,
-                    "name": "InvalidOperationException",
+                    "name": "&",
                     "isAnswer": false
                 }
             ],
@@ -269,31 +269,31 @@
         },
         {
             "id": 1017,
-            "name": "In C#.NET if we do not catch the exception thrown at runtime then which of the following will catch it?",
+            "name": "scanf() is a predefined function in______header file?",
             "questionTypeId": 1,
             "options": [
                 {
                     "id": 1055,
                     "questionId": 1010,
-                    "name": "Compiler",
+                    "name": "stdlib. h",
                     "isAnswer": false
                 },
                 {
                     "id": 1056,
                     "questionId": 1010,
-                    "name": "CLR",
+                    "name": " stdio. h",
                     "isAnswer": true
                 },
                 {
                     "id": 1057,
                     "questionId": 1010,
-                    "name": "Linker",
+                    "name": " ctype. h",
                     "isAnswer": false
                 },
                 {
                     "id": 1058,
                     "questionId": 1010,
-                    "name": "Operating system",
+                    "name": "stdarg. h",
                     "isAnswer": false
                 }
             ],
@@ -305,32 +305,32 @@
         },
         {
             "id": 1018,
-            "name": "Which of the following statements are correct about delegates?",
+            "name": "When a C program is started, O.S environment is responsible for opening file and providing pointer for that file?",
             "questionTypeId": 1,
             "options": [
                 {
                     "id": 1055,
                     "questionId": 1010,
-                    "name": "Delegates cannot be used to call a static method of a class.",
+                    "name": "Standard input.",
                     "isAnswer": false
                 },
                 {
                     "id": 1057,
                     "questionId": 1010,
-                    "name": "Delegates cannot be used to call procedures that receive variable number of arguments.",
-                    "isAnswer": true
+                    "name": " Standard output.",
+                    "isAnswer": false
                 },
                 {
                     "id": 1056,
                     "questionId": 1010,
-                    "name": "If signatures of two methods are same they can be called through the same delegate object.",
+                    "name": "Standard error.",
                     "isAnswer": false
                 },
                 {
                     "id": 1058,
                     "questionId": 1010,
-                    "name": "Delegates cannot be used to call an instance function. Delegates cannot be used to call an instance subroutine.",
-                    "isAnswer": false
+                    "name": "All of the mentioned",
+                    "isAnswer": true
                 }
             ],
             "questionType": {
@@ -341,31 +341,31 @@
         },
         {
             "id": 1019,
-            "name": "Which of the following does NOT represent Integer?",
+            "name": "How many number of pointer (*) does C have against a pointer variable declaration?",
             "questionTypeId": 1,
             "options": [
                 {
                     "id": 1055,
                     "questionId": 1010,
-                    "name": "Char",
+                    "name": " No limits",
                     "isAnswer": true
                 },
                 {
                     "id": 1056,
                     "questionId": 1010,
-                    "name": "Byte",
+                    "name": " 7",
                     "isAnswer": false
                 },
                 {
                     "id": 1057,
                     "questionId": 1010,
-                    "name": "Short",
+                    "name": "127",
                     "isAnswer": false
                 },
                 {
                     "id": 1058,
                     "questionId": 1010,
-                    "name": "Long",
+                    "name": "255",
                     "isAnswer": false
                 }
             ],
