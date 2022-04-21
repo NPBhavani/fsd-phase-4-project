@@ -5,25 +5,25 @@
     "questions": [
         {
             "id": 1010,
-            "name": "Which HTML tag do we use to put the JavaScript?",
+            "name": "Javascript is an _______ language?",
             "questionTypeId": 1,
             "options": [
                 {
                     "id": 1055,
                     "questionId": 1010,
-                    "name": "<javascript>",
+                    "name": "Object - Based",
                     "isAnswer": false
                 },
                 {
                     "id": 1056,
                     "questionId": 1010,
-                    "name": "<script>",
+                    "name": "Object -oriented",
                     "isAnswer": true
                 },
                 {
                     "id": 1057,
                     "questionId": 1010,
-                    "name": "<js>",
+                    "name": "Procedural",
                     "isAnswer": false
                 },
                 {
@@ -41,98 +41,26 @@
         },
         {
             "id": 1011,
-            "name": "Which built-in method calls a function for each element in the array?",
+            "name": " Upon encountering empty statements, what does the Javascript Interpreter do?",
             "questionTypeId": 1,
             "options": [
                 {
                     "id": 1055,
                     "questionId": 1010,
-                    "name": "while()",
+                    "name": "Throws an error",
                     "isAnswer": false
                 },
                 {
                     "id": 1057,
                     "questionId": 1010,
-                    "name": "loop",
+                    "name": "Gives a warning",
                     "isAnswer": false
                 },
                 {
                     "id": 1056,
                     "questionId": 1010,
-                    "name": "forEach",
+                    "name": "Ignores the statement",
                     "isAnswer": true
-                },
-                {
-                    "id": 1058,
-                    "questionId": 1010,
-                    "name": "takeUntil",
-                    "isAnswer": false
-                }
-            ],
-            "questionType": {
-                "id": 1,
-                "name": "Multiple Choice",
-                "isActive": true
-            }
-        },
-        {
-            "id": 1012,
-            "name": "What is the difference between let and var?",
-            "questionTypeId": 1,
-            "options": [
-                {
-                    "id": 1055,
-                    "questionId": 1010,
-                    "name": "let has local scope",
-                    "isAnswer": true
-                },
-                {
-                    "id": 1057,
-                    "questionId": 1010,
-                    "name": "Both are same",
-                    "isAnswer": false
-                },
-                {
-                    "id": 1056,
-                    "questionId": 1010,
-                    "name": "var is new data type",
-                    "isAnswer": false
-                },
-                {
-                    "id": 1058,
-                    "questionId": 1010,
-                    "name": "let consumes more cpu and ram",
-                    "isAnswer": false
-                }
-            ],
-            "questionType": {
-                "id": 1,
-                "name": "Multiple Choice",
-                "isActive": true
-            }
-        },
-        {
-            "id": 1013,
-            "name": "What is TypeScript?",
-            "questionTypeId": 1,
-            "options": [
-                {
-                    "id": 1055,
-                    "questionId": 1010,
-                    "name": "A Language based on Javascript",
-                    "isAnswer": true
-                },
-                {
-                    "id": 1057,
-                    "questionId": 1010,
-                    "name": "script that runs on browser",
-                    "isAnswer": false
-                },
-                {
-                    "id": 1056,
-                    "questionId": 1010,
-                    "name": "A DataType Collection of Javascript",
-                    "isAnswer": false
                 },
                 {
                     "id": 1058,
@@ -148,32 +76,104 @@
             }
         },
         {
-            "id": 1014,
-            "name": "Which of the following is right syntex for arrow function?",
+            "id": 1012,
+            "name": "Which of the following is correct about JavaScript?",
             "questionTypeId": 1,
             "options": [
                 {
                     "id": 1055,
                     "questionId": 1010,
-                    "name": "a -> { return b; }",
-                    "isAnswer": false
+                    "name": " JavaScript is an Object-Based language",
+                    "isAnswer": true
                 },
                 {
                     "id": 1057,
                     "questionId": 1010,
-                    "name": "x <= x + y;",
+                    "name": " JavaScript is Assembly-language",
                     "isAnswer": false
                 },
                 {
                     "id": 1056,
                     "questionId": 1010,
-                    "name": "x <- x + 5;",
+                    "name": "JavaScript is an Object-Oriented language",
                     "isAnswer": false
                 },
                 {
                     "id": 1058,
                     "questionId": 1010,
-                    "name": "x => x + 5;",
+                    "name": "JavaScript is a High-level language",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1013,
+            "name": "Which of the following object is the main entry point to all client-side JavaScript features and APIs?",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": " Position",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": "Window",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1010,
+                    "name": "Standard",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1058,
+                    "questionId": 1010,
+                    "name": " Location",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1014,
+            "name": "Which of the following can be used to call a JavaScript Code Snippet?",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "RMI",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": "Triggering Event",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1010,
+                    "name": "Preprocessor",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1058,
+                    "questionId": 1010,
+                    "name": "Function/Method",
                     "isAnswer": true
                 }
             ],
@@ -185,31 +185,31 @@
         },
         {
             "id": 1015,
-            "name": "Which new ES6 syntax helps with formatting output text - mixing variables with string literals, for example.",
+            "name": "Which of the following explains correctly what happens when a JavaScript program is developed on a Unix Machine?",
             "questionTypeId": 1,
             "options": [
                 {
                     "id": 1055,
                     "questionId": 1010,
-                    "name": "Generator Functions",
+                    "name": "must be restricted to a Unix Machine only",
                     "isAnswer": false
                 },
                 {
                     "id": 1057,
                     "questionId": 1010,
-                    "name": "Arrow Functions",
+                    "name": "will throw errors and exceptions",
                     "isAnswer": false
                 },
                 {
                     "id": 1056,
                     "questionId": 1010,
-                    "name": "Template Strings",
+                    "name": "will work perfectly well on a Windows Machine",
                     "isAnswer": true
                 },
                 {
                     "id": 1058,
                     "questionId": 1010,
-                    "name": "Set Data Structure",
+                    "name": " will be displayed as JavaScript text on the browser",
                     "isAnswer": false
                 }
             ],
@@ -221,31 +221,31 @@
         },
         {
             "id": 1016,
-            "name": "Which ES6 feature helps in merging of a number of changed properties into an existing object?",
+            "name": " Why JavaScript Engine is needed?",
             "questionTypeId": 1,
             "options": [
                 {
                     "id": 1055,
                     "questionId": 1010,
-                    "name": "Class syntex",
+                    "name": " Both Compiling & Interpreting the JavaScript",
                     "isAnswer": false
                 },
                 {
                     "id": 1056,
                     "questionId": 1010,
-                    "name": "Object.assign()",
+                    "name": "Interpreting the JavaScript",
                     "isAnswer": true
                 },
                 {
                     "id": 1057,
                     "questionId": 1010,
-                    "name": "map data structure",
+                    "name": " Parsing the javascript",
                     "isAnswer": false
                 },
                 {
                     "id": 1058,
                     "questionId": 1010,
-                    "name": "Array.includes(obj);",
+                    "name": "Compiling the JavaScript",
                     "isAnswer": false
                 }
             ],
@@ -257,31 +257,31 @@
         },
         {
             "id": 1017,
-            "name": "What is the difference between == and === ?",
+            "name": "Why event handlers is needed in JS?",
             "questionTypeId": 1,
             "options": [
                 {
                     "id": 1055,
                     "questionId": 1010,
-                    "name": "=== throws syntex error",
+                    "name": "Adds innerHTML page to the code",
                     "isAnswer": false
                 },
                 {
                     "id": 1056,
                     "questionId": 1010,
-                    "name": "== checks values only, === checks types as well",
+                    "name": "Allows JavaScript code to alter the behaviour of windows",
                     "isAnswer": true
                 },
                 {
                     "id": 1057,
                     "questionId": 1010,
-                    "name": "=== is reference type check only",
+                    "name": "Change the server location",
                     "isAnswer": false
                 },
                 {
                     "id": 1058,
                     "questionId": 1010,
-                    "name": "Both are same",
+                    "name": "Performs handling of exceptions and occurrences",
                     "isAnswer": false
                 }
             ],
@@ -293,31 +293,31 @@
         },
         {
             "id": 1018,
-            "name": "Which of the following is NOT the method of an Array?",
+            "name": "Which of the following is not a framework?",
             "questionTypeId": 1,
             "options": [
                 {
                     "id": 1055,
                     "questionId": 1010,
-                    "name": ".map()",
+                    "name": " JavaScript .NET",
                     "isAnswer": false
                 },
                 {
                     "id": 1057,
                     "questionId": 1010,
-                    "name": ".includes()",
+                    "name": "Cocoa JS",
                     "isAnswer": false
                 },
                 {
                     "id": 1056,
                     "questionId": 1010,
-                    "name": ".subscribe()",
+                    "name": " JavaScript",
                     "isAnswer": true
                 },
                 {
                     "id": 1058,
                     "questionId": 1010,
-                    "name": ".flatMap()",
+                    "name": " jQuery",
                     "isAnswer": false
                 }
             ],
@@ -329,31 +329,31 @@
         },
         {
             "id": 1019,
-            "name": "What will be the output of the following code: ['a', 'b', 'c'].fill(7, 1, 2);?",
+            "name": "Which of the following is not an error in JavaScript?",
             "questionTypeId": 1,
             "options": [
                 {
                     "id": 1055,
                     "questionId": 1010,
-                    "name": "['a', 7, 'c']",
+                    "name": "Division by zero",
                     "isAnswer": true
                 },
                 {
                     "id": 1056,
                     "questionId": 1010,
-                    "name": "['a', 7, 7, 'b', 'c']",
+                    "name": "Missing of Bracket",
                     "isAnswer": false
                 },
                 {
                     "id": 1057,
                     "questionId": 1010,
-                    "name": "['a', 'b', 'c']",
+                    "name": "Syntax error",
                     "isAnswer": false
                 },
                 {
                     "id": 1058,
                     "questionId": 1010,
-                    "name": "['7', 7, 'c']",
+                    "name": " Missing of semicolons",
                     "isAnswer": false
                 }
             ],
